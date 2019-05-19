@@ -1,0 +1,27 @@
+1. npm init
+2. npm install save express
+3 create index.js file
+const express = require('express')
+//common terminologies in mongo db
+//db = software used to store data
+//collection -[]
+//document -{}
+//field nothing but a property
+//to store information about a contact like name,email,mobile,website
+//const contacts = [{id:1,name:'ani',email:'ani@gmail.com',mobile:1234,website:'www.ani.com'}]
+//contacts =collection
+//{id:1,name:'ani',email:'ani@gmail.com',mobile:1234,website:'www.ani.com'}=document
+//id=field
+//name=field
+//mobile,email,mobile=field's
+//schema tells what fields must be present in a document
+//schema types -tells what type the field belongs to
+//schema types-string,number,boolean,array,object,date
+/*
+id,
+name --string,
+email--string,
+website--string,
+createdAt--date
+ */
+//const Schema = mongoose.Schema
